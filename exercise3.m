@@ -1,6 +1,5 @@
 % PART III: Towards large-scale retrieval
 
-% setup MATLAB to use our software
 setup ;
 
 %% -------------------------------------------------------------------
