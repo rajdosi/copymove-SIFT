@@ -1,10 +1,8 @@
 % PART IV: Large scale image retrieval
 
-% setup MATLAB to use our software
 setup ;
 
-% Load the database if not already in memory, or if the one
-% is from exercise3.
+% Load the database if not already in memory
 if ~exist('imdb', 'var') || ~isfield(imdb.images,'wikiName')
   imdb = loadIndex('data/paintings_imdb_100k_disc_dog.mat', ...
                    'sqrtHistograms', true) ;
